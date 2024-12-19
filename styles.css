@@ -1,0 +1,98 @@
+/* Genel stil ayarları */
+body {
+  font-family: Times New Roman, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header düzeni */
+header {
+  display: flex;
+  justify-content: center; /* Yatayda ortalar */
+  align-items: center; /* Dikeyde ortalar */
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  flex-direction: column; /* Elemanları dikey olarak sıralar */
+}
+
+/* Logo ve başlık */
+header img {
+  height: 70px; /* Resmin yüksekliği */
+  max-width: 70px; /* Resmin maksimum genişliği */
+  left: 0;
+}
+ 
+	
+ 
+
+/* Başlık */
+header h1 {
+  position: absolute; /* Mutlak konumlandırma */
+  top: 0; /* Üstten sıfır mesafe */
+  right: 0; /* Sağdan sıfır mesafe */
+  margin: 0; /* Varsayılan margin'i sıfırlıyoruz */
+  font-size: 36px; /* Yazı tipi boyutunu ayarlayabilirsiniz */
+}
+/* Menü düzeni */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 28px;
+}
+
+h3 {
+  color: #333;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 30px;
+
+}
